@@ -1,0 +1,40 @@
+class strings{
+  public static void main(String[] args){
+    // Scanner sc=new Scanner(System.in);
+    // String name=sc.nextLine();
+    // System.out.println("my name is "+name);
+
+    //concatination//
+    // String fname="nizam";
+    // String sname=" mohd";
+    // System.out.println(fullname);
+
+    //concatinatiion by user input//
+    // Scanner sc=new Scanner(System.in);
+    // String fname=sc.nextLine();
+    // String sname=sc.nextLine();
+    // String fullname=fname+sname; 
+    // System.out.println(fullname);
+    
+    //leght function to find out lenght of string//
+    // System.out.println(fullname.length());
+
+    //charAt for returning the value in index //
+    // for(int i=0;i<fullname.length();i++){
+    //     System.out.println(fullname.charAt(i));
+
+    //comparsion in strings//
+    // if(fname.compareTo(sname)==0 ){
+    //     System.out.println("equal");
+    // }else{
+    //     System.out.println("not equal");
+    // }
+
+    //substring function//
+    // String sentence="my name is nizam,i am good boy";
+    // String name=sentence.substring(11,26);
+    // System.out.println(name);
+    }
+  }
+
+
