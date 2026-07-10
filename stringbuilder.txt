@@ -1,0 +1,74 @@
+// class hello {
+//     public static void main(String[] args) {
+//         StringBuilder sb = new StringBuilder("tony");
+//         System.out.println(sb);
+//     }    
+// }
+//output:tony
+
+
+//string builder lenght//
+// class hello {
+//     public static void main(String[] args) {
+//         StringBuilder sb = new StringBuilder("tony");
+//         System.out.println(sb.length());
+//     }    
+// }
+//output:4
+
+
+// CharAt function to find out charater at index //
+// class hello {
+//     public static void main(String[] args) {
+//         StringBuilder sb = new StringBuilder("tony");
+//         System.out.println(sb.charAt(0));
+//     }    
+// }
+//output:t
+
+
+//Replacing / changing the value of character in string//
+// class hello {
+//     public static void main(String[] args) {
+//         StringBuilder sb = new StringBuilder("tony");
+//         sb.setCharAt(2,'m');
+//         System.out.println(sb);
+//     }    
+// }
+//output:tomy
+
+
+//adding /inserting new character in string//
+// class hello {
+//     public static void main(String[] args) {
+//         StringBuilder sb = new StringBuilder("tony");
+//         sb.insert(4,"'s");
+//         System.out.println(sb);
+//     }    
+// }
+//output: tony's
+
+
+//deletimg the character in string//
+// class hello {
+//     public static void main(String[] args) {
+//         StringBuilder sb = new StringBuilder("tony");
+//         sb.delete(2,3);
+//         System.out.println(sb);
+//     }    
+// }
+//output:toy
+
+
+//adding the character one by one by using appensd function//
+// class hello{
+//     public static void main(String[] args) {
+//         StringBuilder sb=new StringBuilder("h");
+//         sb.append("e");
+//         sb.append("l");
+//         sb.append("l");
+//         sb.append("o");
+//         System.out.println(sb);
+//     }
+// }
+//output:hello
