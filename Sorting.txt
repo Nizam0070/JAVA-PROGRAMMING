@@ -1,0 +1,60 @@
+//BUBBLE SORTING//
+class demo{
+
+    // public static void Printarray(int arr[]) {
+    //     for(int i=0;i<arr.length;i++)
+    //         System.out.print(arr[i]+"");  
+    // }
+    public static void main(String[] args) {
+        int arr[]={6,5,2,8,9,4};
+        int size=arr.length;
+        int temp=0;
+
+        //outer loop //itterative loop//
+        for(int i=0;i<size;i++){
+            //index values
+            for(int j=0;j<size-i-1;j++){
+                if(arr[j]<arr[j+1]){
+                    //swapping of values
+                    temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
+                }
+            }
+            System.out.println();
+            for(int num : arr){
+                System.out.print(num+" ");
+            }
+        }
+        // Printarray(arr);
+    }
+}
+
+
+
+//SELECTION SORTING//
+import java.util.Scanner;
+class demo{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int []arr={1,7,5,9,6,1,2};
+        int temp=0;
+        //outer loop//itterative loop//
+        for(int i=0;i<arr.length-1;i++){
+            //index values
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[j]>arr[i]){
+                    //swapping//
+                    temp=arr[i];
+                    arr[i]=arr[j];
+                    arr[j]=temp;
+            }
+        }
+        System.out.println();
+           for(int sum : arr){
+                System.out.print(sum+" ");
+    } 
+            }
+
+        }
+    }
